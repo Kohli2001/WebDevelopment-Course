@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position prperty</title>
+    <style>
+        .container{
+            
+            /* border: 2px solid rgb(255, 55, 0); */
+        }
+        body{
+            background-color:  yellow;
+            height: 3444px;
+        }
+        .box{
+            display: inline-block;
+             border: 2px solid rgb(102, 0, 255);
+             width: 150px;
+             height: 150px;
+             margin: 2px;
+
+        }
+        #box3{
+            /* relative means it will move from its past position */
+            /* position: relative; 
+            top: 23px;
+            left: 43px; */
+            /* position: absolute;
+            top: 23px;
+            left: 34px; */
+
+            /* positionfixed is used to fixed any box at one side such as  to make chat box  */
+            /* position: fixed;
+            color: rgb(255, 17, 0);
+            right: 4px;
+            bottom: 2px; */
+            position: sticky;
+            top: 3px;
+            /* top: 2px;/ */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <!-- <h3>css position property </h3> -->
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">Chat Bot</div>
+    <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>

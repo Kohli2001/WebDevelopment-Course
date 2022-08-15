@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+
+<body>
+    <h2>This is HTML form</h2>
+
+    <form action="form.php">
+        <div>
+           First Name <input type="text" name="myname"> Middle Name <input type="text" name="middleNmae"> Last Name <input type="text" name="lastname">
+        </div>
+        <br>
+        <div>
+            Email <input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            Roll  <input type="text" name="myrollNo">
+        </div>
+        <br>
+        <div>
+            <label for="dob"> DOB </label>
+            <input type="date" name="mydate" id="dob">
+        </div>
+        <br>
+        <div>
+           Salary <input type="number" name="mybonus">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="mygender"> Female<input type="radio" name="mygender"> Other<input
+                type="radio" name="mygender">
+        </div>
+        <label for="car"></label> 
+        car <select name="mycar" id="car">
+        <option value= "swift">swift </option>
+        <option value= "TATA">TATA </option>
+        </select>
+        <div> 
+            <label for="agree"> i agree all terms and conditions</label>
+             <input type="checkbox" name="submission" id="agree">
+        </div>
+      
+        <br>
+        <div>
+            <label for="area">Write about yourself:</label><br>
+           <textarea name="" id="area" cols="40" rows="10"></textarea>
+
+        </div><br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+        <br>
+
+    </form>
+
+</body>
+
+</html>

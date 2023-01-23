@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox in Css</title>
+   <style>
+    .container{
+        /*when we use width in px it action behaving  in vertically but 
+        when we use width in % it action behaving in horizontally   */
+        width: 100%; 
+        height: 335px;
+        border: 2px solid black;
+        /* initiating the flex concepts */
+        display: flex;  
+        /* flex properties */
+        /* flex-direction: row;
+
+        flex-direction: column;
+        flex-direction: row-reverse;
+        flex-direction: column-reverse; */
+
+        /* flex wrap property give u advantage to make your website responsive  and similarly wrap reverse make responsive in reverse order*/
+
+        flex-wrap: wrap;   
+        /* flex-wrap: wrap-reverse; */ 
+        justify-content: center;
+   
+     
+     
+    }
+    .item{
+        background-color: tomato;
+        border: 2px solid green;
+        padding: 3px;
+        margin: 10px;
+        width: 160px;
+        height: 160px;
+    }
+
+   </style>
+</head>
+<body>
+    <h3>FlexBox in Css</h3>
+    <div class="container">
+        <div class="item" id="box1">box1</div>
+        <div class="item" id="box2">box2</div>
+        <div class="item" id="box3">box3</div>
+        <div class="item" id="box4">box4</div>
+        <div class="item" id="box5">box5</div>
+        <div class="item" id="box6">box6</div>
+    </div>
+
+    
+</body>
+</html>

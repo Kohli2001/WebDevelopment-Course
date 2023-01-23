@@ -1,0 +1,147 @@
+/* NeoGCamp Learning */
+
+/* this is actually third way of using css which is widely used all around the world currectly  its called as externaly css which is imported in html pages */
+
+
+/* body{
+    color: rgb(226, 67, 43);
+}
+h1{
+    color: blue;
+}
+h2{
+    color: blueviolet;
+}
+p{
+    color: rgb(43, 200, 40);
+}
+   
+
+button{
+    color: rgb(9, 33, 216);
+}
+.para{
+    color: rgb(14, 15, 14);
+}
+#list{
+    color: yellow;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+  /* container */
+
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.primary-link{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+    
+}
+a:hover {
+    background-color:rgb(0, 255, 42);
+
+}
+.secondary-link{
+    background-color: rgb(106, 31, 31);
+    color: white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.non-bullets-list{
+    list-style: none;
+}
+.inline-list{
+    display: inline;
+    margin: 1rem;
+}
+/* .navigation{
+    background-color: cornflowerblue;
+} */
+.navigation{
+
+    padding: 1rem;
+    color: white;
+    background-color:#7c3aed
+      
+}
+.link{
+    color: white;
+}
+.nav-pills{
+    text-align: right;
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+.navigation h2{
+    text-align: top;
+}
+
+    /* header */
+.hero{
+    padding: 2rem;
+    text-align: center;
+    /* margin: auto; */
+
+}
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+   
+}
+.hero-heading{
+    font-size: 3rem;
+    color: darkgrey;
+    text-align: center;
+}
+   
+    /* section */
+.section h1,h2,h3 ,p{
+    text-align: center;
+    
+
+}
+.section{
+    background-color: lightgray
+}
+.primary-button{
+   margin: auto;
+   color: white;
+   background-color: green;
+   padding: 1rem;
+   border-radius: 1rem;
+  margin: auto;
+
+}
+.footer{
+    width: auto;
+    text-align: center;
+    background-color: rgb(252, 255, 255)
+    
+
+}
+.inline-list{
+    display: inline;
+    margin: 1rem;
+}
+
+
